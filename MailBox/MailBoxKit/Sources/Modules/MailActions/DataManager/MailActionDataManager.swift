@@ -7,9 +7,9 @@
 //
 
 import Foundation
-class MailActionDataManager: AbstractDataManager {
+public class MailActionDataManager: AbstractDataManager {
     
-    func markItemAsRead(itemIDs: [String], completion: @escaping DataServiceLayerCompletion) {
+    public func markItemAsRead(itemIDs: [String], completion: @escaping DataServiceLayerCompletion) {
         
         apiClient.markRead(forItemsID: itemIDs) { (bool, error) in
             if let error = error {

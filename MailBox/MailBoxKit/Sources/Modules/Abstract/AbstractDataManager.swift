@@ -7,12 +7,12 @@
 //
 
 import Foundation
-class AbstractDataManager {
+open class AbstractDataManager {
     
     let apiClient: APIClient
     
     init(apiClient: APIClient) {
         self.apiClient = apiClient
     }
-    
+        
 }

@@ -15,11 +15,11 @@ open class DependencyFactory {
         self.core = core
     }
     
-//    lazy var apiClient: APIClient = {
-//        return APIClient(core: self.core)
-//    }()
+    lazy var apiClient: APIClient = {
+        return APIClient(core: self.core)
+    }()
     
-//    public func newsDataService(_ currentLeague: League) -> NewsDataService {
-//        return NewsDataService(apiClient: apiClient, league: currentLeague)
-//    }
+    public func mailActionDataManager() -> MailActionDataManager {
+        return MailActionDataManager(apiClient: apiClient)
+    }
 }

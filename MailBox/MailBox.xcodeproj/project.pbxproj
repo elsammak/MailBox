@@ -17,6 +17,11 @@
 		A5D99F6F1E9254830009C6A9 /* MailBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99F6E1E9254830009C6A9 /* MailBoxTests.swift */; };
 		A5D99F7A1E9254830009C6A9 /* MailBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99F791E9254830009C6A9 /* MailBoxUITests.swift */; };
 		A5D99FF61E9260010009C6A9 /* MailBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FF51E9260010009C6A9 /* MailBox.swift */; };
+		A5D9A0261E926DB80009C6A9 /* InboxRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A0201E926DB80009C6A9 /* InboxRouter.swift */; };
+		A5D9A0271E926DB80009C6A9 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A0211E926DB80009C6A9 /* InboxViewController.swift */; };
+		A5D9A0281E926DB80009C6A9 /* InboxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A0221E926DB80009C6A9 /* InboxViewModel.swift */; };
+		A5D9A02A1E926DCD0009C6A9 /* AbstractViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A0291E926DCD0009C6A9 /* AbstractViewModel.swift */; };
+		A5D9A02C1E926DDC0009C6A9 /* AbstractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A02B1E926DDC0009C6A9 /* AbstractViewController.swift */; };
 		B7B6008CA92B826BF02F000A /* Pods_MailBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2582CAD7E275CDAFBA22D1D /* Pods_MailBox.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +63,11 @@
 		A5D99F791E9254830009C6A9 /* MailBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailBoxUITests.swift; sourceTree = "<group>"; };
 		A5D99F7B1E9254830009C6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D99FF51E9260010009C6A9 /* MailBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailBox.swift; sourceTree = "<group>"; };
+		A5D9A0201E926DB80009C6A9 /* InboxRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxRouter.swift; sourceTree = "<group>"; };
+		A5D9A0211E926DB80009C6A9 /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		A5D9A0221E926DB80009C6A9 /* InboxViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewModel.swift; sourceTree = "<group>"; };
+		A5D9A0291E926DCD0009C6A9 /* AbstractViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractViewModel.swift; sourceTree = "<group>"; };
+		A5D9A02B1E926DDC0009C6A9 /* AbstractViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractViewController.swift; sourceTree = "<group>"; };
 		CF68517D660FD2C1ADED78EF /* Pods-MailBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailBoxTests/Pods-MailBoxTests.release.xcconfig"; sourceTree = "<group>"; };
 		E0604E0858025751A1F19583 /* Pods-MailBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailBoxUITests/Pods-MailBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2582CAD7E275CDAFBA22D1D /* Pods_MailBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +149,10 @@
 		A5D99F581E9254820009C6A9 /* MailBox */ = {
 			isa = PBXGroup;
 			children = (
+				A5D9A0251E926DB80009C6A9 /* 0.Abstract */,
+				A5D9A01F1E926DB80009C6A9 /* 1.Inbox */,
+				A5D9A0231E926DB80009C6A9 /* 2.MailDetails */,
+				A5D9A0241E926DB80009C6A9 /* 3.SideMenu */,
 				A5D99F591E9254820009C6A9 /* AppDelegate.swift */,
 				A5D99F5B1E9254820009C6A9 /* ViewController.swift */,
 				A5D99F5D1E9254820009C6A9 /* Main.storyboard */,
@@ -166,6 +180,39 @@
 				A5D99F7B1E9254830009C6A9 /* Info.plist */,
 			);
 			path = MailBoxUITests;
+			sourceTree = "<group>";
+		};
+		A5D9A01F1E926DB80009C6A9 /* 1.Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				A5D9A0201E926DB80009C6A9 /* InboxRouter.swift */,
+				A5D9A0211E926DB80009C6A9 /* InboxViewController.swift */,
+				A5D9A0221E926DB80009C6A9 /* InboxViewModel.swift */,
+			);
+			path = 1.Inbox;
+			sourceTree = "<group>";
+		};
+		A5D9A0231E926DB80009C6A9 /* 2.MailDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 2.MailDetails;
+			sourceTree = "<group>";
+		};
+		A5D9A0241E926DB80009C6A9 /* 3.SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3.SideMenu;
+			sourceTree = "<group>";
+		};
+		A5D9A0251E926DB80009C6A9 /* 0.Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				A5D9A0291E926DCD0009C6A9 /* AbstractViewModel.swift */,
+				A5D9A02B1E926DDC0009C6A9 /* AbstractViewController.swift */,
+			);
+			path = 0.Abstract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,7 +499,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D9A02A1E926DCD0009C6A9 /* AbstractViewModel.swift in Sources */,
+				A5D9A0271E926DB80009C6A9 /* InboxViewController.swift in Sources */,
+				A5D9A02C1E926DDC0009C6A9 /* AbstractViewController.swift in Sources */,
 				A5D99F5C1E9254820009C6A9 /* ViewController.swift in Sources */,
+				A5D9A0261E926DB80009C6A9 /* InboxRouter.swift in Sources */,
+				A5D9A0281E926DB80009C6A9 /* InboxViewModel.swift in Sources */,
 				A5D99F5A1E9254820009C6A9 /* AppDelegate.swift in Sources */,
 				A5D99FF61E9260010009C6A9 /* MailBox.swift in Sources */,
 			);
