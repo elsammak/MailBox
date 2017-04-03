@@ -1,0 +1,25 @@
+//
+//  DependencyFactory.swift
+//  MailBoxSDK
+//
+//  Created by Mohammed Elsammak on 4/3/17.
+//  Copyright © 2017 SoftXPert. All rights reserved.
+//
+
+import Foundation
+internal class DependencyFactory {
+    
+    let core: MailBoxCore
+    
+    required public init(core: MailBoxCore) {
+        self.core = core
+    }
+    
+//    lazy var apiClient: APIClient = {
+//        return APIClient(core: self.core)
+//    }()
+    
+//    public func newsDataService(_ currentLeague: League) -> NewsDataService {
+//        return NewsDataService(apiClient: apiClient, league: currentLeague)
+//    }
+}

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD2FC39AD1FE6C7DB94BA70D11585DF8"
+               BlueprintIdentifier = "3A980C4E342A9C28EC5095DCC9F53665"
                BuildableName = "Pods_MailBox.framework"
                BlueprintName = "Pods-MailBox"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD2FC39AD1FE6C7DB94BA70D11585DF8"
+            BlueprintIdentifier = "3A980C4E342A9C28EC5095DCC9F53665"
             BuildableName = "Pods_MailBox.framework"
             BlueprintName = "Pods-MailBox"
             ReferencedContainer = "container:Pods.xcodeproj">

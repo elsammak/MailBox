@@ -1,0 +1,6 @@
+framework module Pods_MailBoxKitTests {
+  umbrella header "Pods-MailBoxKitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

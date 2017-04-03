@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070FE81BAFE26F19AF0D9D6A /* Pods_MailBoxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACFFCDED635ACFFB90D4D82 /* Pods_MailBoxKit.framework */; };
 		A5D99FD51E9255A40009C6A9 /* MailBoxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D99FCB1E9255A30009C6A9 /* MailBoxKit.framework */; };
 		A5D99FDA1E9255A40009C6A9 /* MailBoxKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FD91E9255A40009C6A9 /* MailBoxKitTests.swift */; };
 		A5D99FDC1E9255A40009C6A9 /* MailBoxKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D99FCE1E9255A30009C6A9 /* MailBoxKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5D99FEA1E92564E0009C6A9 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FE61E92564E0009C6A9 /* Config.swift */; };
+		A5D99FEB1E92564E0009C6A9 /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FE71E92564E0009C6A9 /* DependencyFactory.swift */; };
+		A5D99FEC1E92564F0009C6A9 /* MailBoxCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FE81E92564E0009C6A9 /* MailBoxCore.swift */; };
+		A5D99FED1E92564F0009C6A9 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FE91E92564E0009C6A9 /* Manager.swift */; };
+		CA6748CA5732E2D4D15DA558 /* Pods_MailBoxKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EC58F0656B9301EBF1CE88 /* Pods_MailBoxKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +29,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B7FFCF8BE6A46DA808DACAF /* Pods-MailBoxKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailBoxKitTests/Pods-MailBoxKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		22D9B032883B665D6C046BD9 /* Pods-MailBoxKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailBoxKit/Pods-MailBoxKit.debug.xcconfig"; sourceTree = "<group>"; };
+		76CFD932AF899688D4B2BC71 /* Pods-MailBoxKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailBoxKit/Pods-MailBoxKit.release.xcconfig"; sourceTree = "<group>"; };
 		A5D99FCB1E9255A30009C6A9 /* MailBoxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MailBoxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D99FCE1E9255A30009C6A9 /* MailBoxKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailBoxKit.h; sourceTree = "<group>"; };
 		A5D99FCF1E9255A40009C6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D99FD41E9255A40009C6A9 /* MailBoxKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailBoxKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D99FD91E9255A40009C6A9 /* MailBoxKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailBoxKitTests.swift; sourceTree = "<group>"; };
 		A5D99FDB1E9255A40009C6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D99FE61E92564E0009C6A9 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A5D99FE71E92564E0009C6A9 /* DependencyFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyFactory.swift; sourceTree = "<group>"; };
+		A5D99FE81E92564E0009C6A9 /* MailBoxCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailBoxCore.swift; sourceTree = "<group>"; };
+		A5D99FE91E92564E0009C6A9 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		B85341C6465D3CCFB1BF86EA /* Pods-MailBoxKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailBoxKitTests/Pods-MailBoxKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BACFFCDED635ACFFB90D4D82 /* Pods_MailBoxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailBoxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EC58F0656B9301EBF1CE88 /* Pods_MailBoxKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailBoxKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070FE81BAFE26F19AF0D9D6A /* Pods_MailBoxKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +61,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D99FD51E9255A40009C6A9 /* MailBoxKit.framework in Frameworks */,
+				CA6748CA5732E2D4D15DA558 /* Pods_MailBoxKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72EFE4D078A8BF720A3973F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22D9B032883B665D6C046BD9 /* Pods-MailBoxKit.debug.xcconfig */,
+				76CFD932AF899688D4B2BC71 /* Pods-MailBoxKit.release.xcconfig */,
+				B85341C6465D3CCFB1BF86EA /* Pods-MailBoxKitTests.debug.xcconfig */,
+				1B7FFCF8BE6A46DA808DACAF /* Pods-MailBoxKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A5D99FC11E9255A30009C6A9 = {
 			isa = PBXGroup;
 			children = (
 				A5D99FCD1E9255A30009C6A9 /* MailBoxKit */,
 				A5D99FD81E9255A40009C6A9 /* MailBoxKitTests */,
 				A5D99FCC1E9255A30009C6A9 /* Products */,
+				72EFE4D078A8BF720A3973F0 /* Pods */,
+				DBC74D046F54933A5CDEFFA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +102,7 @@
 		A5D99FCD1E9255A30009C6A9 /* MailBoxKit */ = {
 			isa = PBXGroup;
 			children = (
+				A5D99FE51E92564E0009C6A9 /* Sources */,
 				A5D99FCE1E9255A30009C6A9 /* MailBoxKit.h */,
 				A5D99FCF1E9255A40009C6A9 /* Info.plist */,
 			);
@@ -84,6 +116,26 @@
 				A5D99FDB1E9255A40009C6A9 /* Info.plist */,
 			);
 			path = MailBoxKitTests;
+			sourceTree = "<group>";
+		};
+		A5D99FE51E92564E0009C6A9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A5D99FE61E92564E0009C6A9 /* Config.swift */,
+				A5D99FE71E92564E0009C6A9 /* DependencyFactory.swift */,
+				A5D99FE81E92564E0009C6A9 /* MailBoxCore.swift */,
+				A5D99FE91E92564E0009C6A9 /* Manager.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		DBC74D046F54933A5CDEFFA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BACFFCDED635ACFFB90D4D82 /* Pods_MailBoxKit.framework */,
+				C3EC58F0656B9301EBF1CE88 /* Pods_MailBoxKitTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5D99FDF1E9255A40009C6A9 /* Build configuration list for PBXNativeTarget "MailBoxKit" */;
 			buildPhases = (
+				DCC2025AADDB10BF8F6E6073 /* [CP] Check Pods Manifest.lock */,
 				A5D99FC61E9255A30009C6A9 /* Sources */,
 				A5D99FC71E9255A30009C6A9 /* Frameworks */,
 				A5D99FC81E9255A30009C6A9 /* Headers */,
 				A5D99FC91E9255A30009C6A9 /* Resources */,
+				F3B46F63A8A6E5586A2A5295 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5D99FE21E9255A40009C6A9 /* Build configuration list for PBXNativeTarget "MailBoxKitTests" */;
 			buildPhases = (
+				FE50DD244D5480E39042DA85 /* [CP] Check Pods Manifest.lock */,
 				A5D99FD01E9255A40009C6A9 /* Sources */,
 				A5D99FD11E9255A40009C6A9 /* Frameworks */,
 				A5D99FD21E9255A40009C6A9 /* Resources */,
+				935BE61FB106F1D506B5AEF5 /* [CP] Embed Pods Frameworks */,
+				2031C898B211088580FEA8E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,11 +250,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2031C898B211088580FEA8E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MailBoxKitTests/Pods-MailBoxKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		935BE61FB106F1D506B5AEF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MailBoxKitTests/Pods-MailBoxKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC2025AADDB10BF8F6E6073 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B46F63A8A6E5586A2A5295 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MailBoxKit/Pods-MailBoxKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE50DD244D5480E39042DA85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5D99FC61E9255A30009C6A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D99FEA1E92564E0009C6A9 /* Config.swift in Sources */,
+				A5D99FEB1E92564E0009C6A9 /* DependencyFactory.swift in Sources */,
+				A5D99FEC1E92564F0009C6A9 /* MailBoxCore.swift in Sources */,
+				A5D99FED1E92564F0009C6A9 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +460,7 @@
 		};
 		A5D99FE01E9255A40009C6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D9B032883B665D6C046BD9 /* Pods-MailBoxKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -340,6 +480,7 @@
 		};
 		A5D99FE11E9255A40009C6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CFD932AF899688D4B2BC71 /* Pods-MailBoxKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -359,7 +500,9 @@
 		};
 		A5D99FE31E9255A40009C6A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85341C6465D3CCFB1BF86EA /* Pods-MailBoxKitTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VD99NBZ76D;
 				INFOPLIST_FILE = MailBoxKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -371,7 +514,9 @@
 		};
 		A5D99FE41E9255A40009C6A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7FFCF8BE6A46DA808DACAF /* Pods-MailBoxKitTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VD99NBZ76D;
 				INFOPLIST_FILE = MailBoxKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +545,7 @@
 				A5D99FE11E9255A40009C6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5D99FE21E9255A40009C6A9 /* Build configuration list for PBXNativeTarget "MailBoxKitTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +554,7 @@
 				A5D99FE41E9255A40009C6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

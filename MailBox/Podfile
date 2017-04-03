@@ -7,6 +7,8 @@ target 'MailBox' do
 
   # Pods for MailBox
   pod 'Alamofire'
+  pod 'MailBoxKit', path: './MailBoxKit'
+  
   target 'MailBoxTests' do
     inherit! :search_paths
     # Pods for testing

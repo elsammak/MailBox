@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MailBoxKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MailBox.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>3A980C4E342A9C28EC5095DCC9F53665</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3AE7C815D6BE77FA679855B2595460F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7C9BF3FBBDA3EDB44C556B56D1BAD55A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DD2FC39AD1FE6C7DB94BA70D11585DF8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

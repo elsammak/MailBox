@@ -1,12 +1,20 @@
 PODS:
   - Alamofire (4.4.0)
+  - MailBoxKit (1.0.0):
+    - Alamofire
 
 DEPENDENCIES:
   - Alamofire
+  - MailBoxKit (from `./MailBoxKit`)
+
+EXTERNAL SOURCES:
+  MailBoxKit:
+    :path: ./MailBoxKit
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  MailBoxKit: 63034973f7ad48cf5de17e4f1407c509b7e1371d
 
-PODFILE CHECKSUM: 0a760c2354ef29e28470ac7592b32e8a81acb3de
+PODFILE CHECKSUM: 786b7842b17941f095e9d3158281abdee6033c35
 
 COCOAPODS: 1.2.0

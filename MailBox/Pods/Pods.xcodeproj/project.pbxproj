@@ -10,21 +10,29 @@
 		03643F69F504E88D35BCAFB513C37C3C /* Pods-MailBoxUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E42FF34325B5F01CFF7ECCDEECF62D2 /* Pods-MailBoxUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		088B32B7D32DAF5EDB2D4E9F4A54B210 /* Pods-MailBoxTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B1D717C2BD7D23C6CC1953ED0087D4 /* Pods-MailBoxTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
+		16CFC960053EE48617123EF0E1971671 /* MailBoxKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A023695F2FEE941FA3EDB9903D9A120 /* MailBoxKit-dummy.m */; };
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		229A3EE9D09D5AD24405E7106CDF1D02 /* Pods-MailBoxTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0A43984B1211EB65DCAB0802065FAA /* Pods-MailBoxTests-dummy.m */; };
-		2DBBAC97AA9B2D28C21D5A237792B7FF /* Pods-MailBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8722AAA840B88AF5FA38379D63D915C /* Pods-MailBox-dummy.m */; };
+		24115FA29DD630D28F77857853040280 /* Pods-MailBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8722AAA840B88AF5FA38379D63D915C /* Pods-MailBox-dummy.m */; };
+		271E26AD24463B207FA7D4E492074EA1 /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D0825EE30D8F2A715893786E699FB2 /* DependencyFactory.swift */; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
+		3B923A00B67C61CDE6E7373861BEC6B0 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFD63C3EF62B1EB90B66283C427B10 /* Config.swift */; };
+		3F22E92F4C1A417035FD30CC4A74D6B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */; };
 		3FD4D398E01A18A5742257208BE9A1E3 /* Pods-MailBoxUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA215B5193A966C998A0212686942507 /* Pods-MailBoxUITests-dummy.m */; };
-		418D95449746B809A465B9024FF5E074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		418D95449746B809A465B9024FF5E074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */; };
+		47FA3B2DD71458FDFDB6EAA95701634D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */; };
+		51B65A9488BFAC896B3CAB73E88DFDEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */; };
+		6157C19608BFCA91280E51A7412E156E /* MailBoxCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DDFF853417022543F20763CD4C083 /* MailBoxCore.swift */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
-		6845273BF1796D15288D76B3324A4FCC /* Pods-MailBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B03347A86621A590A435653D345CD4 /* Pods-MailBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */; };
+		7D822F6AD4ABB382CB8669D1C9DB32F6 /* MailBoxKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9D0D972F3D74E4EAB23091D826BED7 /* MailBoxKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */; };
-		8D9BDB5611459958653E867749624150 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8477C93B5B7EF043F2EE5B63247449FD /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1E4FC0B9137263EB6B0B7CAF7F94D /* Manager.swift */; };
+		92228A0A2E84C22F5F92555CD615B955 /* Pods-MailBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B03347A86621A590A435653D345CD4 /* Pods-MailBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */; };
-		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */; };
 		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */; };
 		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */; };
@@ -32,14 +40,28 @@
 		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
 		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */; };
-		E7DBE19167793EA5B7502E1BB111CC40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E7DBE19167793EA5B7502E1BB111CC40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
 		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
 		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6F3B6311336CFB880430CE8EB370FAD8 /* PBXContainerItemProxy */ = {
+		0DE9DDA4998FE4B4686D29E1C4339387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		8996684EDC6D1C537EBCAA4892C43594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE7C815D6BE77FA679855B2595460F8;
+			remoteInfo = MailBoxKit;
+		};
+		C15F00D7B9A89AD2537236BFD0437CE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -60,11 +82,14 @@
 		195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		1E230A0448B394DE26E688DAC8E6201E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		270B3E0F550E0DF873B932363C8C1E09 /* Pods_MailBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MailBox.framework; path = "Pods-MailBox.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A11F2FB3CB10EE7E6CD825BED7442B /* Pods-MailBoxTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MailBoxTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2A6D277453F2DD55BD11103B842E8425 /* Pods_MailBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MailBoxTests.framework; path = "Pods-MailBoxTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB21273A1B8B4E87420880EAB36B34F /* MailBoxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MailBoxKit.framework; path = MailBoxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		3D17B20230CF6CAA4265267BA87A4C49 /* Pods-MailBoxUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MailBoxUITests-frameworks.sh"; sourceTree = "<group>"; };
 		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		3D9DDFF853417022543F20763CD4C083 /* MailBoxCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MailBoxCore.swift; sourceTree = "<group>"; };
+		3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		47B03347A86621A590A435653D345CD4 /* Pods-MailBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MailBox-umbrella.h"; sourceTree = "<group>"; };
 		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
@@ -73,20 +98,28 @@
 		635F061FED1B10E7A149AA708AD34916 /* Pods-MailBoxTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MailBoxTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F6CD3A06473F23BF4213C64CC85013 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		7E42FF34325B5F01CFF7ECCDEECF62D2 /* Pods-MailBoxUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MailBoxUITests-umbrella.h"; sourceTree = "<group>"; };
+		82A1E4FC0B9137263EB6B0B7CAF7F94D /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		89FD00D25302C76E8F97360617863AEF /* Pods_MailBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MailBoxTests.framework; path = "Pods-MailBoxTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0A43984B1211EB65DCAB0802065FAA /* Pods-MailBoxTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MailBoxTests-dummy.m"; sourceTree = "<group>"; };
+		8D46DCA4EA396FB3253C9C9EA094566E /* MailBoxKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MailBoxKit.xcconfig; sourceTree = "<group>"; };
+		8EFFD63C3EF62B1EB90B66283C427B10 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		915CE548F8D5EE07F490CD3E718E88FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		933242AB6532B69A4F7535F785E90F51 /* Pods-MailBoxUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MailBoxUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A9E90E5D0D9605551429F291226FE8 /* Pods-MailBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MailBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		98C44A0A4872FFACDFA12D66ACA3AC2E /* Pods-MailBox-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MailBox-frameworks.sh"; sourceTree = "<group>"; };
+		9A023695F2FEE941FA3EDB9903D9A120 /* MailBoxKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MailBoxKit-dummy.m"; sourceTree = "<group>"; };
 		9C9AF6433DB908EACFE0A4606E34E334 /* Pods-MailBox-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MailBox-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D4CD229B4D8F20524E14A077D3EE573 /* Pods_MailBoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MailBoxUITests.framework; path = "Pods-MailBoxUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9D0D972F3D74E4EAB23091D826BED7 /* MailBoxKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MailBoxKit-umbrella.h"; sourceTree = "<group>"; };
 		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		A0D4247E83CDB6DFE4E15B492B68B926 /* Pods_MailBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MailBox.framework; path = "Pods-MailBox.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E99D2980E4A636478718D793E652E2 /* Pods_MailBoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MailBoxUITests.framework; path = "Pods-MailBoxUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D27B9AE908B6DEA9A81F8958C8D3C8 /* Pods-MailBox-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MailBox-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACD6F3B5C2CBE42F818E9F3E18EA356B /* MailBoxKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MailBoxKit-prefix.pch"; sourceTree = "<group>"; };
 		ADF131F8FBF2C2121266386AAB0CA9DA /* Pods-MailBoxTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MailBoxTests.modulemap"; sourceTree = "<group>"; };
 		B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		B2B1D717C2BD7D23C6CC1953ED0087D4 /* Pods-MailBoxTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MailBoxTests-umbrella.h"; sourceTree = "<group>"; };
@@ -96,34 +129,44 @@
 		BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		BF7043CDE80EF53C72301DE812A59E3C /* Pods-MailBoxTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MailBoxTests-frameworks.sh"; sourceTree = "<group>"; };
 		C4478CE0DA6B31E98F2FA1F93D74E37B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC1B51EB9958B6C4F4A466656CF72F8E /* Pods-MailBoxUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MailBoxUITests-resources.sh"; sourceTree = "<group>"; };
+		D17A5611C654874182EF32A512F7CAF5 /* MailBoxKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MailBoxKit.modulemap; sourceTree = "<group>"; };
 		DA215B5193A966C998A0212686942507 /* Pods-MailBoxUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MailBoxUITests-dummy.m"; sourceTree = "<group>"; };
+		DF84512868F6AF5108EE208CC7EAF3F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		E3D0825EE30D8F2A715893786E699FB2 /* DependencyFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DependencyFactory.swift; sourceTree = "<group>"; };
 		E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		E8722AAA840B88AF5FA38379D63D915C /* Pods-MailBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MailBox-dummy.m"; sourceTree = "<group>"; };
-		EE09297634FAE63C1BC73808E5C8C229 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0ACFE128C7A4A16FF96165B6EEC3F25 /* Pods-MailBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MailBox.debug.xcconfig"; sourceTree = "<group>"; };
 		F17747468DA6B179927CD960A8DFCAD5 /* Pods-MailBox-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MailBox-resources.sh"; sourceTree = "<group>"; };
 		F8303C93E2B468E7AE362AAC92209FE6 /* Pods-MailBoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MailBoxUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8294E20A2271B8AD52D857C6A0F7CF53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F22E92F4C1A417035FD30CC4A74D6B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844A7978D73F1679BB315DB402C81B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FA3B2DD71458FDFDB6EAA95701634D /* Alamofire.framework in Frameworks */,
+				51B65A9488BFAC896B3CAB73E88DFDEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1C8985B9C0FD5EBDAE5C5283FBE92A5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D9BDB5611459958653E867749624150 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +241,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4D52E5179C752CF1DCAB9843B133DEFA /* MailBoxKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF906110469723FC59CE950D2CDEF216 /* Sources */,
+				6F2CF376E24DD9A57E031A0712E91CFE /* Support Files */,
+			);
+			name = MailBoxKit;
+			path = ../MailBoxKit;
+			sourceTree = "<group>";
+		};
 		55F14F994FE7AB51F028BFE66CEF3106 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,23 +265,39 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		6EBF3212275E64047517196CCB61CC79 /* Products */ = {
+		57D8E6A4D70F896F32E6A47025609D56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE09297634FAE63C1BC73808E5C8C229 /* Alamofire.framework */,
-				A0D4247E83CDB6DFE4E15B492B68B926 /* Pods_MailBox.framework */,
-				2A6D277453F2DD55BD11103B842E8425 /* Pods_MailBoxTests.framework */,
-				9D4CD229B4D8F20524E14A077D3EE573 /* Pods_MailBoxUITests.framework */,
+				71F6CD3A06473F23BF4213C64CC85013 /* Alamofire.framework */,
+				2EB21273A1B8B4E87420880EAB36B34F /* MailBoxKit.framework */,
+				270B3E0F550E0DF873B932363C8C1E09 /* Pods_MailBox.framework */,
+				89FD00D25302C76E8F97360617863AEF /* Pods_MailBoxTests.framework */,
+				A1E99D2980E4A636478718D793E652E2 /* Pods_MailBoxUITests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		59B91F212518421F271EBA85D5530651 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */,
+				7EB15E2C7EC8DD0E4C409FA3E5AC30A1 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F2CF376E24DD9A57E031A0712E91CFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF84512868F6AF5108EE208CC7EAF3F8 /* Info.plist */,
+				D17A5611C654874182EF32A512F7CAF5 /* MailBoxKit.modulemap */,
+				8D46DCA4EA396FB3253C9C9EA094566E /* MailBoxKit.xcconfig */,
+				9A023695F2FEE941FA3EDB9903D9A120 /* MailBoxKit-dummy.m */,
+				ACD6F3B5C2CBE42F818E9F3E18EA356B /* MailBoxKit-prefix.pch */,
+				9C9D0D972F3D74E4EAB23091D826BED7 /* MailBoxKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/MailBoxKit";
 			sourceTree = "<group>";
 		};
 		7AD0DD41AC14F6DF0E04D215B7F032D2 /* Pods-MailBoxTests */ = {
@@ -253,11 +322,28 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9F2B259A09ABB19B56B699CCD220E247 /* Development Pods */,
+				59B91F212518421F271EBA85D5530651 /* Frameworks */,
 				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
-				6EBF3212275E64047517196CCB61CC79 /* Products */,
+				57D8E6A4D70F896F32E6A47025609D56 /* Products */,
 				B650BCC02F6A566BD24CC424B45BD8F6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7EB15E2C7EC8DD0E4C409FA3E5AC30A1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9F2B259A09ABB19B56B699CCD220E247 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D52E5179C752CF1DCAB9843B133DEFA /* MailBoxKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B650BCC02F6A566BD24CC424B45BD8F6 /* Targets Support Files */ = {
@@ -268,14 +354,6 @@
 				CF438C54599B13E0A9DA84D24CAF0BD3 /* Pods-MailBoxUITests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF438C54599B13E0A9DA84D24CAF0BD3 /* Pods-MailBoxUITests */ = {
@@ -296,17 +374,21 @@
 			path = "Target Support Files/Pods-MailBoxUITests";
 			sourceTree = "<group>";
 		};
+		DF906110469723FC59CE950D2CDEF216 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8EFFD63C3EF62B1EB90B66283C427B10 /* Config.swift */,
+				E3D0825EE30D8F2A715893786E699FB2 /* DependencyFactory.swift */,
+				3D9DDFF853417022543F20763CD4C083 /* MailBoxCore.swift */,
+				82A1E4FC0B9137263EB6B0B7CAF7F94D /* Manager.swift */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18F8DA3809BE603045425A13E5FFC935 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6845273BF1796D15288D76B3324A4FCC /* Pods-MailBox-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		48F2F08C552ABEA051E29CF6B06A675A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,11 +397,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A0159C6A7F529076E4372F3284310CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92228A0A2E84C22F5F92555CD615B955 /* Pods-MailBox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79E65643EB11933BD552E1719CC158EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				088B32B7D32DAF5EDB2D4E9F4A54B210 /* Pods-MailBoxTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DF72D6023B0BB0011DAB13B7CC85E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D822F6AD4ABB382CB8669D1C9DB32F6 /* MailBoxKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +446,44 @@
 			);
 			name = "Pods-MailBoxTests";
 			productName = "Pods-MailBoxTests";
-			productReference = 2A6D277453F2DD55BD11103B842E8425 /* Pods_MailBoxTests.framework */;
+			productReference = 89FD00D25302C76E8F97360617863AEF /* Pods_MailBoxTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A980C4E342A9C28EC5095DCC9F53665 /* Pods-MailBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2502B44910F287295D997AF4484681D /* Build configuration list for PBXNativeTarget "Pods-MailBox" */;
+			buildPhases = (
+				BF20FEDCCE03C714D13F9EE3021F7CC4 /* Sources */,
+				8294E20A2271B8AD52D857C6A0F7CF53 /* Frameworks */,
+				5A0159C6A7F529076E4372F3284310CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7879AE88623883B0B26BB37FAE7179 /* PBXTargetDependency */,
+				4F8884C9FE87DB7C92DAAD1AC0F08E73 /* PBXTargetDependency */,
+			);
+			name = "Pods-MailBox";
+			productName = "Pods-MailBox";
+			productReference = 270B3E0F550E0DF873B932363C8C1E09 /* Pods_MailBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3AE7C815D6BE77FA679855B2595460F8 /* MailBoxKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E866ED7E0E174F2BB5D50F64A5EC91B9 /* Build configuration list for PBXNativeTarget "MailBoxKit" */;
+			buildPhases = (
+				41C74150BCBC38D2565754F21BAB9071 /* Sources */,
+				844A7978D73F1679BB315DB402C81B4B /* Frameworks */,
+				A0DF72D6023B0BB0011DAB13B7CC85E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FE24A812E219A5F3934D33A446B5A0 /* PBXTargetDependency */,
+			);
+			name = MailBoxKit;
+			productName = MailBoxKit;
+			productReference = 2EB21273A1B8B4E87420880EAB36B34F /* MailBoxKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7C9BF3FBBDA3EDB44C556B56D1BAD55A /* Pods-MailBoxUITests */ = {
@@ -365,7 +500,7 @@
 			);
 			name = "Pods-MailBoxUITests";
 			productName = "Pods-MailBoxUITests";
-			productReference = 9D4CD229B4D8F20524E14A077D3EE573 /* Pods_MailBoxUITests.framework */;
+			productReference = A1E99D2980E4A636478718D793E652E2 /* Pods_MailBoxUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -382,25 +517,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = EE09297634FAE63C1BC73808E5C8C229 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DD2FC39AD1FE6C7DB94BA70D11585DF8 /* Pods-MailBox */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C35DDDFA4E09ECAEB6AD16F72A787BB3 /* Build configuration list for PBXNativeTarget "Pods-MailBox" */;
-			buildPhases = (
-				FADDFD20183EED17EFB0E98445415240 /* Sources */,
-				A1C8985B9C0FD5EBDAE5C5283FBE92A5 /* Frameworks */,
-				18F8DA3809BE603045425A13E5FFC935 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0EC082FB0316BA40A2B900B085E7EB33 /* PBXTargetDependency */,
-			);
-			name = "Pods-MailBox";
-			productName = "Pods-MailBox";
-			productReference = A0D4247E83CDB6DFE4E15B492B68B926 /* Pods_MailBox.framework */;
+			productReference = 71F6CD3A06473F23BF4213C64CC85013 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -420,12 +537,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6EBF3212275E64047517196CCB61CC79 /* Products */;
+			productRefGroup = 57D8E6A4D70F896F32E6A47025609D56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
-				DD2FC39AD1FE6C7DB94BA70D11585DF8 /* Pods-MailBox */,
+				3AE7C815D6BE77FA679855B2595460F8 /* MailBoxKit */,
+				3A980C4E342A9C28EC5095DCC9F53665 /* Pods-MailBox */,
 				26792D9B24E1F28699978E4122A7C5FA /* Pods-MailBoxTests */,
 				7C9BF3FBBDA3EDB44C556B56D1BAD55A /* Pods-MailBoxUITests */,
 			);
@@ -466,6 +584,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		41C74150BCBC38D2565754F21BAB9071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B923A00B67C61CDE6E7373861BEC6B0 /* Config.swift in Sources */,
+				271E26AD24463B207FA7D4E492074EA1 /* DependencyFactory.swift in Sources */,
+				6157C19608BFCA91280E51A7412E156E /* MailBoxCore.swift in Sources */,
+				16CFC960053EE48617123EF0E1971671 /* MailBoxKit-dummy.m in Sources */,
+				8477C93B5B7EF043F2EE5B63247449FD /* Manager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79693BF5B6A12D314BEF26DD4EE0B82D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -474,22 +604,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADDFD20183EED17EFB0E98445415240 /* Sources */ = {
+		BF20FEDCCE03C714D13F9EE3021F7CC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DBBAC97AA9B2D28C21D5A237792B7FF /* Pods-MailBox-dummy.m in Sources */,
+				24115FA29DD630D28F77857853040280 /* Pods-MailBox-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0EC082FB0316BA40A2B900B085E7EB33 /* PBXTargetDependency */ = {
+		22FE24A812E219A5F3934D33A446B5A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = 6F3B6311336CFB880430CE8EB370FAD8 /* PBXContainerItemProxy */;
+			targetProxy = C15F00D7B9A89AD2537236BFD0437CE7 /* PBXContainerItemProxy */;
+		};
+		4F8884C9FE87DB7C92DAAD1AC0F08E73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MailBoxKit;
+			target = 3AE7C815D6BE77FA679855B2595460F8 /* MailBoxKit */;
+			targetProxy = 8996684EDC6D1C537EBCAA4892C43594 /* PBXContainerItemProxy */;
+		};
+		EE7879AE88623883B0B26BB37FAE7179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 0DE9DDA4998FE4B4686D29E1C4339387 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -561,41 +703,37 @@
 			};
 			name = Release;
 		};
-		5CBE5B952C332CD4BA379CDC33D1BAEC /* Debug */ = {
+		3BA023FFA545A9232EC08DD47020FF10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0ACFE128C7A4A16FF96165B6EEC3F25 /* Pods-MailBox.debug.xcconfig */;
+			baseConfigurationReference = 8D46DCA4EA396FB3253C9C9EA094566E /* MailBoxKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MailBox/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MailBoxKit/MailBoxKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MailBoxKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MailBox/Pods-MailBox.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MailBox;
+				MODULEMAP_FILE = "Target Support Files/MailBoxKit/MailBoxKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MailBoxKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		673254EEAF0B5BF4596080C749645884 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -637,41 +775,6 @@
 			};
 			name = Release;
 		};
-		72EF0B323D37980CADC78FFFCF09E190 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56DBC8BCF5526B84D3D7C05F5850F5DA /* Pods-MailBox.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MailBox/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MailBox/Pods-MailBox.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MailBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		7557E947637EF450625E32ED250DD742 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 93A9E90E5D0D9605551429F291226FE8 /* Pods-MailBoxUITests.debug.xcconfig */;
@@ -707,6 +810,41 @@
 			};
 			name = Debug;
 		};
+		8D4BEF091B848AB12A03A31EF05FF713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DBC8BCF5526B84D3D7C05F5850F5DA /* Pods-MailBox.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MailBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MailBox/Pods-MailBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MailBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BB1B5E66E5605B4AD0C2698CDB605169 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8303C93E2B468E7AE362AAC92209FE6 /* Pods-MailBoxUITests.release.xcconfig */;
@@ -741,6 +879,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		CD0577BA3F2F453672050BE1E2169287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0ACFE128C7A4A16FF96165B6EEC3F25 /* Pods-MailBox.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MailBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MailBox/Pods-MailBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MailBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -783,6 +957,39 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E752E28D94108D32DDD0E175B3F1319C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D46DCA4EA396FB3253C9C9EA094566E /* MailBoxKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MailBoxKit/MailBoxKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MailBoxKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MailBoxKit/MailBoxKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MailBoxKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -893,11 +1100,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C35DDDFA4E09ECAEB6AD16F72A787BB3 /* Build configuration list for PBXNativeTarget "Pods-MailBox" */ = {
+		C2502B44910F287295D997AF4484681D /* Build configuration list for PBXNativeTarget "Pods-MailBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5CBE5B952C332CD4BA379CDC33D1BAEC /* Debug */,
-				72EF0B323D37980CADC78FFFCF09E190 /* Release */,
+				CD0577BA3F2F453672050BE1E2169287 /* Debug */,
+				8D4BEF091B848AB12A03A31EF05FF713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E866ED7E0E174F2BB5D50F64A5EC91B9 /* Build configuration list for PBXNativeTarget "MailBoxKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E752E28D94108D32DDD0E175B3F1319C /* Debug */,
+				3BA023FFA545A9232EC08DD47020FF10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

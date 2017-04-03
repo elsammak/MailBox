@@ -1,0 +1,25 @@
+{
+  "name": "MailBoxKit",
+  "version": "1.0.0",
+  "summary": "Framework to access MailBox APIs.",
+  "description": "Framework to access MailBox APIs for internal use only.",
+  "homepage": "https://github.com/elsammak/MailBox",
+  "license": "MIT",
+  "authors": {
+    "Mohammed Elsammak": "elsamak1@gmail.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/elsammak/MailBox.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "Sources/**/*",
+  "exclude_files": "Classes/Exclude",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
+}
