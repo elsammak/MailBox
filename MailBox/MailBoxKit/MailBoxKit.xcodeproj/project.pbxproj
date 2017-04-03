@@ -14,7 +14,7 @@
 		A5D99FEA1E92564E0009C6A9 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FE61E92564E0009C6A9 /* Config.swift */; };
 		A5D99FEB1E92564E0009C6A9 /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FE71E92564E0009C6A9 /* DependencyFactory.swift */; };
 		A5D99FEC1E92564F0009C6A9 /* MailBoxCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FE81E92564E0009C6A9 /* MailBoxCore.swift */; };
-		A5D99FED1E92564F0009C6A9 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FE91E92564E0009C6A9 /* Manager.swift */; };
+		A5D99FEF1E925AAD0009C6A9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FEE1E925AAD0009C6A9 /* APIClient.swift */; };
 		CA6748CA5732E2D4D15DA558 /* Pods_MailBoxKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EC58F0656B9301EBF1CE88 /* Pods_MailBoxKitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +41,7 @@
 		A5D99FE61E92564E0009C6A9 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		A5D99FE71E92564E0009C6A9 /* DependencyFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyFactory.swift; sourceTree = "<group>"; };
 		A5D99FE81E92564E0009C6A9 /* MailBoxCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailBoxCore.swift; sourceTree = "<group>"; };
-		A5D99FE91E92564E0009C6A9 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		A5D99FEE1E925AAD0009C6A9 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = APIClient/APIClient.swift; sourceTree = "<group>"; };
 		B85341C6465D3CCFB1BF86EA /* Pods-MailBoxKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailBoxKitTests/Pods-MailBoxKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BACFFCDED635ACFFB90D4D82 /* Pods_MailBoxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailBoxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EC58F0656B9301EBF1CE88 /* Pods_MailBoxKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailBoxKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,13 +121,21 @@
 		A5D99FE51E92564E0009C6A9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A5D99FF01E925AB30009C6A9 /* APIClient */,
 				A5D99FE61E92564E0009C6A9 /* Config.swift */,
 				A5D99FE71E92564E0009C6A9 /* DependencyFactory.swift */,
 				A5D99FE81E92564E0009C6A9 /* MailBoxCore.swift */,
-				A5D99FE91E92564E0009C6A9 /* Manager.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
+		};
+		A5D99FF01E925AB30009C6A9 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				A5D99FEE1E925AAD0009C6A9 /* APIClient.swift */,
+			);
+			name = APIClient;
+			sourceTree = "<group>";
 		};
 		DBC74D046F54933A5CDEFFA1 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -336,7 +344,7 @@
 				A5D99FEA1E92564E0009C6A9 /* Config.swift in Sources */,
 				A5D99FEB1E92564E0009C6A9 /* DependencyFactory.swift in Sources */,
 				A5D99FEC1E92564F0009C6A9 /* MailBoxCore.swift in Sources */,
-				A5D99FED1E92564F0009C6A9 /* Manager.swift in Sources */,
+				A5D99FEF1E925AAD0009C6A9 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
