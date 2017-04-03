@@ -66,7 +66,7 @@ class APIClient {
                                                 usingMethod method: HTTPMethod,
                                                 withParams params: [String: String]? = nil,
                                                 withHeaders headers: [String: String]? = nil,
-                                                completion: @escaping (AnyObject?, Error?) -> Void) -> Request {
+                                                completion: @escaping (AnyObject?, MBErrorType?) -> Void) -> Request {
         
         return manager.request(url, method: method, parameters: params, encoding: URLEncoding.default, headers: headers).validate().responseJSON { response in
             
@@ -76,14 +76,26 @@ class APIClient {
                     responseError = error
                 }
                 
-                return completion(nil, responseError)
+                return completion(nil, self.convertError(responseError, errorData: response.data))
             }
             if let data = response.result.value {
                 
+                 
                 return completion(data as AnyObject?, nil)
                 
             }
             
         }
+    }
+    /**
+     Convert AFError or error object from server to MBError.
+     
+     - parameter error: Error object in case AFError, NSError object.
+     - parameter errorData: Error returned as response from server when status = 0.
+     
+     - returns: MBErrorType.
+     */
+    internal func convertError(_ error: Error?, errorData: Data? = nil) -> MBErrorType? {
+        return nil
     }
 }

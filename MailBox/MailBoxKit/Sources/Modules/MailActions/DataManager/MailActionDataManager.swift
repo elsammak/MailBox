@@ -7,3 +7,16 @@
 //
 
 import Foundation
+class MailActionDataManager: AbstractDataManager {
+    
+    func markItemAsRead(itemIDs: [String], completion: @escaping DataServiceLayerCompletion) {
+        
+        apiClient.markRead(forItemsID: itemIDs) { (bool, error) in
+            if let error = error {
+                completion(nil, error)
+                return
+            }
+            completion(bool, nil)
+        }
+    }
+}
