@@ -15,6 +15,11 @@
 		A5D99FEB1E92564E0009C6A9 /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FE71E92564E0009C6A9 /* DependencyFactory.swift */; };
 		A5D99FEC1E92564F0009C6A9 /* MailBoxCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FE81E92564E0009C6A9 /* MailBoxCore.swift */; };
 		A5D99FEF1E925AAD0009C6A9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FEE1E925AAD0009C6A9 /* APIClient.swift */; };
+		A5D9A0041E9262020009C6A9 /* MailActions+APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A0031E9262020009C6A9 /* MailActions+APIClient.swift */; };
+		A5D9A0061E9262100009C6A9 /* MailActionDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A0051E9262100009C6A9 /* MailActionDataManager.swift */; };
+		A5D9A0081E92621F0009C6A9 /* MailItem+APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A0071E92621F0009C6A9 /* MailItem+APIClient.swift */; };
+		A5D9A00A1E92622D0009C6A9 /* MailItemDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A0091E92622D0009C6A9 /* MailItemDataManager.swift */; };
+		A5D9A00C1E9264C60009C6A9 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A00B1E9264C60009C6A9 /* APIClientTests.swift */; };
 		CA6748CA5732E2D4D15DA558 /* Pods_MailBoxKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EC58F0656B9301EBF1CE88 /* Pods_MailBoxKitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +47,11 @@
 		A5D99FE71E92564E0009C6A9 /* DependencyFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyFactory.swift; sourceTree = "<group>"; };
 		A5D99FE81E92564E0009C6A9 /* MailBoxCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailBoxCore.swift; sourceTree = "<group>"; };
 		A5D99FEE1E925AAD0009C6A9 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = APIClient/APIClient.swift; sourceTree = "<group>"; };
+		A5D9A0031E9262020009C6A9 /* MailActions+APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MailActions+APIClient.swift"; sourceTree = "<group>"; };
+		A5D9A0051E9262100009C6A9 /* MailActionDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailActionDataManager.swift; sourceTree = "<group>"; };
+		A5D9A0071E92621F0009C6A9 /* MailItem+APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MailItem+APIClient.swift"; sourceTree = "<group>"; };
+		A5D9A0091E92622D0009C6A9 /* MailItemDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailItemDataManager.swift; sourceTree = "<group>"; };
+		A5D9A00B1E9264C60009C6A9 /* APIClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
 		B85341C6465D3CCFB1BF86EA /* Pods-MailBoxKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailBoxKitTests/Pods-MailBoxKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BACFFCDED635ACFFB90D4D82 /* Pods_MailBoxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailBoxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EC58F0656B9301EBF1CE88 /* Pods_MailBoxKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailBoxKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +124,7 @@
 			children = (
 				A5D99FD91E9255A40009C6A9 /* MailBoxKitTests.swift */,
 				A5D99FDB1E9255A40009C6A9 /* Info.plist */,
+				A5D9A00B1E9264C60009C6A9 /* APIClientTests.swift */,
 			);
 			path = MailBoxKitTests;
 			sourceTree = "<group>";
@@ -121,6 +132,10 @@
 		A5D99FE51E92564E0009C6A9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A5D99FF31E925BB90009C6A9 /* Modules */,
+				A5D99FF11E925BB90009C6A9 /* Extensions */,
+				A5D99FF21E925BB90009C6A9 /* Common */,
+				A5D99FF41E925BB90009C6A9 /* UserPreferences */,
 				A5D99FF01E925AB30009C6A9 /* APIClient */,
 				A5D99FE61E92564E0009C6A9 /* Config.swift */,
 				A5D99FE71E92564E0009C6A9 /* DependencyFactory.swift */,
@@ -135,6 +150,134 @@
 				A5D99FEE1E925AAD0009C6A9 /* APIClient.swift */,
 			);
 			name = APIClient;
+			sourceTree = "<group>";
+		};
+		A5D99FF11E925BB90009C6A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5D99FF21E925BB90009C6A9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A5D99FF31E925BB90009C6A9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A5D99FF71E9261DA0009C6A9 /* Login */,
+				A5D99FFB1E9261DA0009C6A9 /* MailActions */,
+				A5D99FFF1E9261DA0009C6A9 /* MailItems */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A5D99FF41E925BB90009C6A9 /* UserPreferences */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserPreferences;
+			sourceTree = "<group>";
+		};
+		A5D99FF71E9261DA0009C6A9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A5D99FF81E9261DA0009C6A9 /* APIClient */,
+				A5D99FF91E9261DA0009C6A9 /* DataManager */,
+				A5D99FFA1E9261DA0009C6A9 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A5D99FF81E9261DA0009C6A9 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		A5D99FF91E9261DA0009C6A9 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		A5D99FFA1E9261DA0009C6A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5D99FFB1E9261DA0009C6A9 /* MailActions */ = {
+			isa = PBXGroup;
+			children = (
+				A5D99FFC1E9261DA0009C6A9 /* APIClient */,
+				A5D99FFD1E9261DA0009C6A9 /* DataManager */,
+				A5D99FFE1E9261DA0009C6A9 /* Model */,
+			);
+			path = MailActions;
+			sourceTree = "<group>";
+		};
+		A5D99FFC1E9261DA0009C6A9 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				A5D9A0031E9262020009C6A9 /* MailActions+APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		A5D99FFD1E9261DA0009C6A9 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A5D9A0051E9262100009C6A9 /* MailActionDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		A5D99FFE1E9261DA0009C6A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5D99FFF1E9261DA0009C6A9 /* MailItems */ = {
+			isa = PBXGroup;
+			children = (
+				A5D9A0001E9261DA0009C6A9 /* APIClient */,
+				A5D9A0011E9261DA0009C6A9 /* DataManager */,
+				A5D9A0021E9261DA0009C6A9 /* Model */,
+			);
+			path = MailItems;
+			sourceTree = "<group>";
+		};
+		A5D9A0001E9261DA0009C6A9 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				A5D9A0071E92621F0009C6A9 /* MailItem+APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		A5D9A0011E9261DA0009C6A9 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A5D9A0091E92622D0009C6A9 /* MailItemDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		A5D9A0021E9261DA0009C6A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DBC74D046F54933A5CDEFFA1 /* Frameworks */ = {
@@ -343,7 +486,11 @@
 			files = (
 				A5D99FEA1E92564E0009C6A9 /* Config.swift in Sources */,
 				A5D99FEB1E92564E0009C6A9 /* DependencyFactory.swift in Sources */,
+				A5D9A0061E9262100009C6A9 /* MailActionDataManager.swift in Sources */,
+				A5D9A00A1E92622D0009C6A9 /* MailItemDataManager.swift in Sources */,
+				A5D9A0081E92621F0009C6A9 /* MailItem+APIClient.swift in Sources */,
 				A5D99FEC1E92564F0009C6A9 /* MailBoxCore.swift in Sources */,
+				A5D9A0041E9262020009C6A9 /* MailActions+APIClient.swift in Sources */,
 				A5D99FEF1E925AAD0009C6A9 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D99FDA1E9255A40009C6A9 /* MailBoxKitTests.swift in Sources */,
+				A5D9A00C1E9264C60009C6A9 /* APIClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -68,7 +68,7 @@ class APIClient {
                                                 withHeaders headers: [String: String]? = nil,
                                                 completion: @escaping (AnyObject?, Error?) -> Void) -> Request {
         
-        return manager.request(url, method: method, parameters: params, encoding: URLEncoding.default, headers: headers).validate().responseData { response in
+        return manager.request(url, method: method, parameters: params, encoding: URLEncoding.default, headers: headers).validate().responseJSON { response in
             
             guard response.result.isSuccess else {
                 var responseError: Error? = nil

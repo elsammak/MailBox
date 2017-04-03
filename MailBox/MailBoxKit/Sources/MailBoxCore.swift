@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class MailBoxCore {
+open class MailBoxCore {
     
     open let config: Config
     public init(config: Config) {

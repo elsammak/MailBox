@@ -16,6 +16,7 @@
 		A5D99F641E9254820009C6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D99F621E9254820009C6A9 /* LaunchScreen.storyboard */; };
 		A5D99F6F1E9254830009C6A9 /* MailBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99F6E1E9254830009C6A9 /* MailBoxTests.swift */; };
 		A5D99F7A1E9254830009C6A9 /* MailBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99F791E9254830009C6A9 /* MailBoxUITests.swift */; };
+		A5D99FF61E9260010009C6A9 /* MailBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D99FF51E9260010009C6A9 /* MailBox.swift */; };
 		B7B6008CA92B826BF02F000A /* Pods_MailBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2582CAD7E275CDAFBA22D1D /* Pods_MailBox.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		A5D99F751E9254830009C6A9 /* MailBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D99F791E9254830009C6A9 /* MailBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailBoxUITests.swift; sourceTree = "<group>"; };
 		A5D99F7B1E9254830009C6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D99FF51E9260010009C6A9 /* MailBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailBox.swift; sourceTree = "<group>"; };
 		CF68517D660FD2C1ADED78EF /* Pods-MailBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailBoxTests/Pods-MailBoxTests.release.xcconfig"; sourceTree = "<group>"; };
 		E0604E0858025751A1F19583 /* Pods-MailBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailBoxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailBoxUITests/Pods-MailBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2582CAD7E275CDAFBA22D1D /* Pods_MailBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MailBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +145,7 @@
 				A5D99F601E9254820009C6A9 /* Assets.xcassets */,
 				A5D99F621E9254820009C6A9 /* LaunchScreen.storyboard */,
 				A5D99F651E9254820009C6A9 /* Info.plist */,
+				A5D99FF51E9260010009C6A9 /* MailBox.swift */,
 			);
 			path = MailBox;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 			files = (
 				A5D99F5C1E9254820009C6A9 /* ViewController.swift in Sources */,
 				A5D99F5A1E9254820009C6A9 /* AppDelegate.swift in Sources */,
+				A5D99FF61E9260010009C6A9 /* MailBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,7 +604,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B883ED3995917E0BC188416 /* Pods-MailBox.debug.xcconfig */;
 			buildSettings = {
+				API_VERSION = v0;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BASE_URL = "http://maillabs.softxpertdev.com/api";
 				DEVELOPMENT_TEAM = VD99NBZ76D;
 				INFOPLIST_FILE = MailBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -614,7 +620,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C68C9A5437DD8D2BF072ED0 /* Pods-MailBox.release.xcconfig */;
 			buildSettings = {
+				API_VERSION = v0;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BASE_URL = "http://maillabs.softxpertdev.com/api";
 				DEVELOPMENT_TEAM = VD99NBZ76D;
 				INFOPLIST_FILE = MailBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -705,6 +713,7 @@
 				A5D99F801E9254830009C6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5D99F811E9254830009C6A9 /* Build configuration list for PBXNativeTarget "MailBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -713,6 +722,7 @@
 				A5D99F831E9254830009C6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5D99F841E9254830009C6A9 /* Build configuration list for PBXNativeTarget "MailBoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +731,7 @@
 				A5D99F861E9254830009C6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

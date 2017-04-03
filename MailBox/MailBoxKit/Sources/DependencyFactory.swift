@@ -7,7 +7,7 @@
 //
 
 import Foundation
-internal class DependencyFactory {
+open class DependencyFactory {
     
     let core: MailBoxCore
     
